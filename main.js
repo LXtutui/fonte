@@ -7,7 +7,7 @@ var diferenca=0;
 
 function setup(){
     canvas=createCanvas(600, 600);
-    canvas.position(560,150);
+    canvas.position(650 ,200);
     video=createCapture(VIDEO);
     video.size(600, 600);
     posenet=ml5.poseNet(video,modelLoaded);
